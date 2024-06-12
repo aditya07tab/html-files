@@ -1,0 +1,30 @@
+1. <!DOCTYPE html> 
+2. <html> 
+3. <body> 
+4. 
+5. <h2>Class Attribute with JavaScript</h2> 
+6. <p>Click the button, to hide all elements with the class name "fruit", with JavaScript:</p> 
+7. 
+8. <button onclick="myFunction()">Hide elements</button> 
+9. 
+10. 
+11. <h2 class="fruit">Mango</h2> 
+12. <p>Mango is king of all fruits.</p> 
+13. 
+14. <h2 class="fruit">Orange</h2> 
+15. <p>Oranges are full of Vitamin C.</p> 
+16. 
+17. <h2 class="fruit">Apple</h2> 
+18. <p>An apple a day, keeps the Doctor away.</p> 
+19. 
+20. <script> 
+21. function myFunction() { 
+22. var x = document.getElementsByClassName("fruit"); 
+23. for (var i = 0; i < x.length; i++) { 
+24. x[i].style.display = "none"; 
+25. } 
+26. } 
+27. </script> 
+28. 
+29. </body> 
+30. </html>
